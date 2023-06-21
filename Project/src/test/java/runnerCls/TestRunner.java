@@ -11,7 +11,7 @@ import io.cucumber.junit.CucumberOptions;
 		
 		features="src/test/java/featureFile/",
 		glue = {"stepDefinitions"},
-		monochrome = true,
+		
 		plugin = {"pretty","html:target/cucumber-reports/reports.html"}
 		
 		
