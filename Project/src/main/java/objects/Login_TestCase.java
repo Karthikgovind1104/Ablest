@@ -29,7 +29,7 @@ public class Login_TestCase  {
 	
 	public  void login() {
 		driver.findElement(submit).click();
-		driver.quit();
+		driver.close();
 	}
 	
 }
