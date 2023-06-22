@@ -24,7 +24,7 @@ public static WebDriver driver;
 	@Given("User is on login page")
 	public void user_is_on_login_page() throws IOException {
 	 
-System.setProperty("webdriver.chrome.driver", "C:\\Users\\yuvar\\eclipse-workspace\\Project\\Driver\\chromedriver.exe");
+System.setProperty("webdriver.chrome.driver", "C:\\Users\\yuvar\\git\\Ablest\\Project\\Driver\\chromedriver.exe");
 		
 		driver = new ChromeDriver();
 		driver.manage().window().maximize();
