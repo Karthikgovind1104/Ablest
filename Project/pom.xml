@@ -57,11 +57,7 @@
 
 
 
-<dependency>
-            <groupId>org.seleniumhq.selenium</groupId>
-            <artifactId>selenium-java</artifactId>
-            <version>3.11.0</version>
-        </dependency>
+
 
 		<!--
 		https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
@@ -79,11 +75,7 @@
 
 
 		
-		<dependency>
-			<groupId>com.cucumber</groupId>
-			<artifactId>CucumberLeaning</artifactId>
-			<version>0.0.1-SNAPSHOT</version>
-		</dependency>
+		
 </dependencies>
 
 
